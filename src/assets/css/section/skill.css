@@ -1,0 +1,14 @@
+.skill_inner {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill_title {
+    position: sticky;
+    top: 70px;
+    left: 0;
+    width: 48%;
+    height: 5vw;
+    font-size: 4vw;
+}
