@@ -8,7 +8,7 @@
     <title>포트폴리오 사이트 만들기 😇 Vite-Site</title>
 
     <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="src/assets/css/style.css" />
 </head>
 <body>
     <div id="skip">
@@ -23,7 +23,29 @@
     <!-- //skip -->
 
     <header id="header" role="banner">
-        header
+        <div class="header_inner">
+          <div class="header_logo">
+            <a href="#">portfolio<em>developer</em></a>
+          </div>
+          <nav class="header_nav" role="navigation" aria-label="메인메뉴">
+            <ul>
+              <li><a href="#intro">intro</a></li>
+              <li><a href="#skill">skill</a></li>
+              <li><a href="#site">site</a></li>
+              <li><a href="#port">port</a></li>
+              <li><a href="#smooth">smooth</a></li>
+            </ul>
+          </nav>
+          <div class="header_nav_mobile" 
+          id="headerToggle" 
+          aria-controls="primary-menu" 
+          aria-expanded="false"
+          role="button"
+          tabindex="0"
+          >
+          <span></span>
+        </div>
+      </div>
     </header>
     <!-- //header -->
 
